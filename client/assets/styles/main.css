@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+/* Styles for table */
+.table {
+  padding: 20px;
+  font-size: 14px;
+}
+.table_row{
+  border: 1px solid lightgray;
+  height: 30px;
+}
+.table_row.header{
+  background-color: lightgray;
+  font-weight: bold;
+  width: 96.3vw;
+}
+.rows-container{
+  max-height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.title{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.content{
+  padding: 10px;
+}
+.text-error{
+  color: red !important;
+}
